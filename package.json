@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "tailwind": "tailwindcss -i ./src/index.css -o ./src/tailwind.css",
+    "tailwind:watch": "npm run tailwind -- --watch",
     "preview": "vite preview"
   },
   "dependencies": {
