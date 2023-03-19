@@ -14,12 +14,57 @@ export const Features = () => {
                 </p>
             </div>
             {/* Numbered List */}
-            <div className="flex flex-col space-y-8 md:1-1/2">
+            <div className="flex flex-col space-y-8 md:1-1/2 pl-8">
                 <div className="flex flex-col space-y3 md:space-y-0 md:space-x-6 med:flex-row">
-                    <div className="rounded-l-full bg-bg-brightRed md:bg-transparent">
+                    <div className="rounded-l-full bg-orange-200 md:bg-transparent">
                         <div className="flex items-center space-x-2">
                             <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">01</div>
-                            <h3 className="text-base font-bold md:md-4 md:hidden">
+                            <h3 className="text-base font-bold md:md-4 pl-3 md:hidden">
+                                Track company-wide progress
+                            </h3>
+                        </div>
+                    </div>
+
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                        Track company-wide progress
+                    </h3>
+                    <p className="text-sky-800">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+                <div className="flex flex-col space-y3 md:space-y-0 md:space-x-6 med:flex-row">
+                    <div className="rounded-l-full bg-orange-200 md:bg-transparent">
+                        <div className="flex items-center space-x-2">
+                            <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">02</div>
+                            <h3 className="text-base font-bold md:md-4 pl-3 md:hidden">
+                                Advanced built-in reports
+                            </h3>
+                        </div>
+                    </div>
+
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                        Advanced built-in reports
+                    </h3>
+                    <p className="text-sky-800">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+                <div className="flex flex-col space-y3 md:space-y-0 md:space-x-6 med:flex-row">
+                    <div className="rounded-l-full bg-orange-200 md:bg-transparent">
+                        <div className="flex items-center space-x-2">
+                            <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">03</div>
+                            <h3 className="text-base font-bold md:md-4 pl-3 md:hidden">
+                                Everything you need in one place
+                            </h3>
+                        </div>
+                    </div>
+
+                    <h3 className="hidden mb-4 text-lg font-bold md:block">
+                        Everything you need in one place
+                    </h3>
+                    <p className="text-sky-800">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+                <div className="flex flex-col space-y3 md:space-y-0 md:space-x-6 med:flex-row">
+                    <div className="rounded-l-full bg-orange-200 md:bg-transparent">
+                        <div className="flex items-center space-x-2">
+                            <div className="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">04</div>
+                            <h3 className="text-base font-bold md:md-4 pl-3 md:hidden">
                                 Track company-wide progress
                             </h3>
                         </div>
