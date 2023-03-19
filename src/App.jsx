@@ -3,6 +3,7 @@ import './App.css'
 import { Features } from './Features'
 import { Hero } from './Hero'
 import { Navbar } from './Navbar'
+import { Testimonials } from './Testimonials'
 
 function App () {
   return (
@@ -10,6 +11,7 @@ function App () {
       <Navbar />
       <Hero />
       <Features />
+      <Testimonials />
     </div>
   )
 }

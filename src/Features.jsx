@@ -7,7 +7,7 @@ export const Features = () => {
             {/* Whats diferent */}
             <div className="flex flex-col space-y-12 md:w-1/2">
                 <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
-                    What's different about Manage?
+                    What&#39;s different about Manage?
                 </h2>
                 <p className="max-w-sm text-center text-sky-800 md:text-left">
                     Manage provides all the functionality that your team needs, without the complexity, Our software is tailor-made for modern digital product teams.
