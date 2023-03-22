@@ -4,15 +4,19 @@ import { MobileMenu } from './MobileMenu'
 export const Navbar = () => {
   const [mouted, setMout] = useState('')
   const [open, setOpen] = useState('')
+  const demoSite = (value = 'No Value') => {
+    alert(
+      `${value}: This is a demo site. It's only for show the skill set with Tailwind, sub-pages are not built.`
+    )
+    console.log(value)
+  }
   const clickHandler = (e) => {
-    const button = document.getElementById('menu-btn')
-    e.preventDefault()
     if (open === 'open') {
       setOpen('')
       setMout('')
     } else {
       setOpen('open')
-      setMout(<MobileMenu />)
+      setMout(<MobileMenu demo={demoSite} />)
     }
   }
 
@@ -24,24 +28,40 @@ export const Navbar = () => {
           <img src="/src/img/logo.svg" alt="Logo hotel" className="" />
         </div>
         <div className="hidden md:flex space-x-6">
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a
+            href=""
+            onClick={(e) => demoSite(e.target.innerHTML)}
+            className="text-gray-500 hover:text-gray-900">
             Pricing
           </a>
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a
+            href="#"
+            onClick={(e) => demoSite(e.target.innerHTML)}
+            className="text-gray-500 hover:text-gray-900">
             Product
           </a>
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a
+            href="#"
+            onClick={(e) => demoSite(e.target.innerHTML)}
+            className="text-gray-500 hover:text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a
+            href="#"
+            onClick={(e) => demoSite(e.target.innerHTML)}
+            className="text-gray-500 hover:text-gray-900">
             Careers
           </a>
-          <a href="#" className="text-gray-500 hover:text-gray-900">
+          <a
+            href="#"
+            onClick={(e) => demoSite(e.target.innerHTML)}
+            className="text-gray-500 hover:text-gray-900">
             Community
           </a>
         </div>
         <a
           href=""
+          onClick={(e) => demoSite(e.target.innerHTML)}
           className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-rose-900">
           Get Started
         </a>
@@ -58,5 +78,5 @@ export const Navbar = () => {
       </div>
       {/* Mobile Menu */}
     </nav>
-  )
+  );
 }
