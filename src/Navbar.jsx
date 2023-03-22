@@ -1,4 +1,5 @@
 import React from 'react'
+import { MobileMenu } from './MobileMenu'
 
 export const Navbar = () => {
   return (
@@ -15,7 +16,17 @@ export const Navbar = () => {
                 <a href="#" className="text-gray-500 hover:text-gray-900">Community</a>
             </div>
             <a href="" className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-rose-900">Get Started</a>
+            {/* Hamburger Menu */}
+
+            <button id="menu-btn" className="block hamburger md:hidden focus:outline-none">
+              <span className="hamburger-top"></span>
+              <span className="hamburger-middle"></span>
+              <span className="hamburger-bottonm"></span>
+            </button>
         </div>
+
+        {/* Mobile Menu */}
+          <MobileMenu />
     </nav>
   )
 }
