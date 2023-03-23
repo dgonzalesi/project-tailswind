@@ -76,7 +76,6 @@ export const Navbar = () => {
           <span className="hamburger-bottom"></span>
         </button>
       </div>
-      {/* Mobile Menu */}
     </nav>
   )
 }
