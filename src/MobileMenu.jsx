@@ -22,7 +22,7 @@ export const MobileMenu = ({ demo }) => {
         Comunity
       </a>
     </div>
-  );
+  )
 }
 
 MobileMenu.propTypes = {
