@@ -1,5 +1,5 @@
 
-# Tailwind Hwllo World Project.
+# Tailwind Hello World Project.
 
 ## Screenshots
 
