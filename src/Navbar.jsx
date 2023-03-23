@@ -25,7 +25,7 @@ export const Navbar = () => {
       {mouted}
       <div className="flex items-center justify-between">
         <div className="pt-2">
-          <img src="/src/img/logo.svg" alt="Logo hotel" className="" />
+          <img src="./img/logo.svg" alt="Logo hotel test" className="" />
         </div>
         <div className="hidden md:flex space-x-6">
           <a
