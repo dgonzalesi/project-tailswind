@@ -1,5 +1,6 @@
 import { useState, React } from 'react'
 import { MobileMenu } from './MobileMenu'
+import logo from './img/logo.svg'
 
 export const Navbar = () => {
   const [mouted, setMout] = useState('')
@@ -25,7 +26,7 @@ export const Navbar = () => {
       {mouted}
       <div className="flex items-center justify-between">
         <div className="pt-2">
-          <img src="./img/logo.svg" alt="Logo hotel test" className="" />
+          <img src={logo} alt="Logo hotel test" className="" />
         </div>
         <div className="hidden md:flex space-x-6">
           <a
